@@ -2,8 +2,8 @@
 
 from PIL import Image
 
-#im = Image.open("/Users/christophalexander/CDEV/sandbox/img-tools/artworks-000058221298-6g6gue-t500x500.jpg")
-im = Image.open("/Users/christophalexander/CDEV/sandbox/img-tools/a1372121225_16.jpg")
+path2file=""
+im = Image.open(path2file)
 
 pix = im.load()
 
